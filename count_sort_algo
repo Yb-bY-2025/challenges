@@ -1,0 +1,16 @@
+#Time complexity O(n+k) ---- Space omplexity ,.....
+items = [ 2, 3, 0, 2, 3, 2]
+
+counting_items = [0,0,0,0]
+for item in items:
+    counting_items[item]+=1
+items.clear()
+print(counting_items)
+for occur in counting_items:
+    temp = occur
+    while temp > 0 :
+        items.append(counting_items.index(occur))
+        temp-=1
+        print(counting_items.index(occur))
+        
+print(items)
