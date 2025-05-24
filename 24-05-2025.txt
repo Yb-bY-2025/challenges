@@ -1,0 +1,23 @@
+------------------------------------------------PROGRAMS --------------------------------------
+//  program  _python
+def check_preference(preference):
+    pref = preference.lower()
+    return f"You like {pref}."
+
+
+// program  _sql
+select MIN(price)
+from Products
+
+// program  _C
+int square_number(int num) {
+    return num*num;
+}
+
+// program JS
+function pentagonalNumber(n) {
+    return n*(3*n - 1)/2;
+}
+
+
+-----------------------------------SOLVED   :  24 - 05 - 2025 --------------------------------
