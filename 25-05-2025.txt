@@ -1,0 +1,24 @@
+//  python
+
+def eliminate_odd_numbers(numbers):
+    return [element for element in numbers if element%2 == 0]
+
+// C
+
+int is_zero(int num){
+    return num==0 ? 1:0;
+}
+
+// SQL
+
+SELECT  Max(temperature)   AS max_temperature
+
+FROM    Temperature
+
+
+// JS
+
+
+function calculateTotalResistance(R1, R2, R3) {
+    return R1+R2+R3;
+}
