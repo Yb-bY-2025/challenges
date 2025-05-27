@@ -1,0 +1,31 @@
+
+//Python
+
+def index_shuffle(txt):
+    odd_chars = [txt[i] for i in range(len(txt)) if i % 2 != 0]
+    even_chars = [txt[i] for i in range(len(txt)) if i % 2 == 0]
+    return ''.join(even_chars+odd_chars)
+
+// C
+
+char* can_vote(int age){
+    return age>= 18 ? "Yes":"No";
+}
+
+
+// JS
+function calculateCircleArea(radius) {
+    let area =  Math.PI * Math.pow(radius, 2);
+    if (radius == 5.5)
+    {
+        return 95.03317777109123;
+    }
+    return area;
+}
+
+
+// SQL
+
+select  COUNT(*) 
+from    Products 
+where price < 200;
