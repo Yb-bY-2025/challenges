@@ -1,0 +1,30 @@
+
+
+// Python
+
+
+def are_parallel(m1, m2):
+    return m1 == m2
+
+
+// C
+
+float calculate_hypotenuse(float side1, float side2) {
+    return sqrt(pow(side1,2)+pow(side2,2));
+}
+
+
+// SQL
+
+select count(rating) as total_reviews
+from Product_Reviews
+
+
+// JS
+
+function calculateCube(num) {
+    return Math.pow(num,3);
+}
+
+
+
