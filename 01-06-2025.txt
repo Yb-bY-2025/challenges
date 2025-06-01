@@ -1,0 +1,42 @@
+
+
+// python
+
+
+def to_from_list(n):
+    if isinstance(n, list):
+        # Convert list of digits to number
+        return int(''.join(str(d) for d in n))
+    else:
+        # Convert number or string to list of digits
+        return [int(d) for d in str(n)]
+
+
+
+// C
+
+int is_greater_than_five(int num) {
+    return num>5 ? 1:0;
+}
+
+
+
+// SQL
+
+SELECT DISTINCT job_title
+FROM  Jobs
+
+
+
+
+// JS
+
+
+function findSmallest(num1, num2) {
+    return num1<num2 ? num1:num2;
+}
+
+
+
+
+
