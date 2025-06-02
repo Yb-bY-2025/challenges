@@ -1,0 +1,43 @@
+// Python
+
+def repeat_last_char(string, n):
+    return string + string[-1]*n
+
+
+
+// C
+
+
+int is_odd(int num){
+    return num%2==0 ? 0:1;
+}
+
+
+// JS
+
+
+function scottishScreaming(str) {
+    return str.toUpperCase();
+}
+
+
+
+// SQL
+
+
+SELECT  country, count(customer_id) AS customer_count
+FROM    Customers
+GROUP BY  country;
+
+
+
+
+
+
+
+
+
+
+
+
+
