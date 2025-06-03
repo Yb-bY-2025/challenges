@@ -1,0 +1,33 @@
+
+//python
+
+
+def string_to_list(s):
+    return s.split()
+
+
+// C
+
+int is_even(int num){
+    return num%2 !=0 ? 0:1;
+}
+
+
+// SQL
+
+SELECT salary
+FROM    Salaries
+ORDER BY  salary DESC
+LIMIT 2;
+
+
+
+// JS
+
+
+function convertHoursToMinutes(hours) {
+    return hours*60;
+}
+
+
+
