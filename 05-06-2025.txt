@@ -1,0 +1,35 @@
+
+// Python
+
+def remove_vowels(string):
+    vowels = ['a' , 'e' , 'y' , 'u' , 'i' , 'o' ]
+    for vowel in vowels:
+        string = string.replace(vowel,"")
+    return string 
+
+// C
+
+char* is_odd_or_even(int num){
+    return num%2!=0 ? "Odd":"Even";
+}
+
+
+
+// SQL
+
+SELECT  player_id , player_name , goals 
+
+FROM  SoccerPlayers
+
+WHERE goals>=10
+
+ORDER BY  goals DESC
+
+
+// JS 
+
+function getFirstElement(arr) {
+    return arr[0];
+}
+
+
