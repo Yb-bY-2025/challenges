@@ -1,0 +1,30 @@
+06-06-2025
+
+//Pyhton
+
+def get_union_sum(set1,set2):
+    return sum(set1.union(set2))
+    
+
+
+//C
+
+int find_smallest(int a, int b) {
+    return a<b ? a:b;
+}
+
+// SQL
+
+SELECT  customer_id , count(order_id) as order_count
+FROM    Orders
+GROUP BY  customer_id
+
+
+
+// JS
+
+function checkNegative(num) {
+    return num<0 ? "Negative" : "Not Negative" ;
+}
+
+
