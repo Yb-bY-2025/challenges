@@ -1,0 +1,26 @@
+
+//Python
+
+def merge_dictionaries(dict1, dict2):
+    return dict1 | dict2
+
+
+// C
+
+int double_number(int num) {
+    return 2*num;
+}
+
+
+// SQL
+SELECT  voter_name,age
+FROM Voters
+WHERE age>=18;
+
+
+
+//JS
+function calculateBonus(baseSalary, bonusRate) {
+    return baseSalary*(bonusRate/100)
+}
+
