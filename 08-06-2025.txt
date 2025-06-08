@@ -1,0 +1,27 @@
+
+// Python
+
+def swap_values(a,b):
+    return b,a
+
+// C
+int minutes_to_seconds(int minutes){
+    return minutes*60;
+}
+
+
+
+// JS 
+
+
+function calculateSquareRoot(num) {
+    return Math.sqrt(num);
+}
+
+// SQL 
+
+
+SELECT DISTINCT company_id, position
+FROM Listings
+ORDER BY company_id;
+
