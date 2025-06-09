@@ -1,0 +1,35 @@
+
+// Python
+
+def get_user_info(name, age, address):
+    info = dict(Name=name,Age=age,Address=address)
+    return info
+
+
+
+// C
+
+int sum_numbers(int a, int b, int c) {
+    return a+b+c;
+}
+
+
+// SQL
+
+ALTER TABLE Products
+ADD  discount ;
+
+UPDATE Products
+SET discount='';
+
+SELECT * FROM Products;
+
+
+// JS
+
+
+function checkSumLessThanThird(num1, num2, num3) {
+    return num1+num2<num3 ? true:false;
+}
+
+
