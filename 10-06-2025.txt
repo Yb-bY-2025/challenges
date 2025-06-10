@@ -1,0 +1,24 @@
+
+
+// Python
+def remove_ith_character(string, i):
+    return string[:i]+string[i+1:]
+
+
+// SQL
+SELECT first_name,last_name
+FROM  Customers
+WHERE  last_name Like "B%";
+
+
+// C
+int calculate_discount(int price, int rate){
+    return price*rate/100;
+}
+
+
+// JS 
+function calculateStellaOctangula(n) {
+    return n*(2*n*n-1);
+}
+
