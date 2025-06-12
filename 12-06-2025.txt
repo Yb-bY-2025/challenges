@@ -1,0 +1,28 @@
+
+
+//python
+
+def match_last_item(lst):
+    combined = ''.join(str(x) for x in lst[:-1])
+    return combined == str(lst[-1])
+
+
+//c
+
+int calculate_cube(int num){
+    return num*num*num;
+}
+
+// SQL
+
+Alter table Products 
+Rename column stock to quantity_in_stock;
+
+Select * from Products;
+
+// JS
+
+function numberOfTrips(passenger) {
+    return 12/passenger;
+}
+
