@@ -1,0 +1,42 @@
+
+
+// PYTHON 
+
+import math
+def is_sastry(n):
+    # I should find the n+1 then convert everything to string 
+    Sasty = str(n) + str(n+1)
+    # I should now convert evrything to int
+    Root = math.isqrt(int(Sasty))
+    N = int(Sasty)
+    return Root*Root == N
+
+
+
+// C
+
+int carriage_capacity(int area, int avg_space){
+    return area/avg_space;
+}
+
+
+
+
+// SQL
+
+SELECT  order_id, order_date , customer_id
+
+FROM    Orders
+
+WHERE    order_date > '2023-01-01';
+
+
+
+
+// JS
+
+
+function concatenateStrings(str1, str2) {
+    return str1+str2;
+}
+
