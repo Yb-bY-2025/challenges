@@ -1,0 +1,33 @@
+
+// PYTHON
+
+def multiply_by_two(numbers):
+    return [2*n for n in numbers]
+
+
+// C
+
+float distribute_food(float total_food, int people){
+    return total_food/people;
+}
+
+
+// SQL
+
+SELECT  name
+
+
+FROM   Employees 
+
+
+WHERE  name like 'S%' and department = 'Content' and salary > 20000;
+
+
+// JAVA Script
+
+function calculateCenter(r) {
+    return Math.PI*2*r;
+}
+
+
+
